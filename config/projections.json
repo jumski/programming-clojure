@@ -1,0 +1,13 @@
+{
+  "src/examples/*.clj": {
+    "command": "example",
+    "alternate": "test/examples/test/%s.clj"
+  },
+  "test/examples/test/*.clj": {
+    "command": "test",
+    "alternate": "src/examples/%s.clj"
+  },
+  "src/sandbox/*.clj": {
+    "command": "sandbox"
+  }
+}
